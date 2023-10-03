@@ -1,0 +1,57 @@
+import { useState } from 'react';
+import './App.css';
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import NavBar from './Components/NavBar';
+import { Equipo } from './Components/Equipo';
+import { Servicios } from './Components/Servicios';
+import { Nosotros } from './Components/Nosotros';
+import { CarouselComponent } from './Components/Galeria';
+import Footer from './Components/Footer';
+import { BlogRecursos } from './Components/BlogRecursos';
+import { Contacto } from './Components/Contacto';
+import { Testimonios } from './Components/Testimonios';
+
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Desplazamiento suave
+    });
+  };
+
+  return (
+      <BrowserRouter>
+        <Routes>
+          <Route path="*" element={<NavBar/>}/>
+        </Routes> 
+
+          <hr/>
+          <h1>REHABILITA SANTIAGO</h1>
+
+
+          <Routes>
+            <Route path="/equipo" element={<Equipo/>}/>
+            <Route path="/servicios" element={<Servicios/>}/>
+            <Route path="/nosotros" element={<Nosotros/>}/>
+            <Route path='/galeria' element={<CarouselComponent/>}/>
+            <Route path='/blog-y-recursos' element={<BlogRecursos/>}/>
+            <Route path='/contacto' element={<Contacto/>}/>
+            <Route path='/' element={<Testimonios/>}/>
+          </Routes>
+          <hr/>
+
+
+
+          <Footer/>
+          <button id="scroll-to-top" onClick={scrollToTop} className='btn btn-danger '>Subir al inicio</button>
+      </BrowserRouter>
+
+  )
+}
+
+export default App

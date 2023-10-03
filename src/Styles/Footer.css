@@ -1,0 +1,51 @@
+.footer {
+    background-color: #f1e9e9; /* Color de fondo del footer */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .footer-logo img {
+    width: 150px; /* Ancho de la imagen del logo */
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: rgb(149, 7, 7);
+    font-weight: bold;
+  }
+  
+  .footer-divider {
+    background-color: #555555;
+    height: 1px;
+    margin: 20px 0;
+  }
+  
+  .footer-info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .color-encuentranos{
+    color: #ffaaa7;
+  }
