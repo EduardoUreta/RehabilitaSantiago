@@ -1,4 +1,7 @@
 import fonoaudiologia from '../assets/servicios/fonoaudiologia.png';
+import servFono1 from '../assets/servicios/servFono1.png'
+import servFono2 from '../assets/servicios/servFono2.png'
+import servFono3 from '../assets/servicios/servFono3.png'
 import 'animate.css';
 
 export function Servicios () {
@@ -6,7 +9,7 @@ export function Servicios () {
         <div className="bg-light row row-gap-3 ">
             <h2 className='animate__animated animate__shakeX'>Atención Fonoaudiológica</h2>
             <div className='container col-sm-12 col-md-6 col-lg-6'>
-                <img src={fonoaudiologia} className="img-fluid img-thumbnail" alt="servicioFono"/>
+                <img src={servFono3} className="img-fluid img-thumbnail" alt="servicioFono"/>
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
@@ -31,7 +34,7 @@ export function Servicios () {
             <hr/>
             <h2 className='animate__animated animate__shakeX'>Atención Kinesiológica</h2>
             <div className='container col-sm-12 col-md-6 col-lg-6'>
-                <img src={fonoaudiologia} className="img-fluid img-thumbnail" alt="servicioFono"/>
+                <img src={servFono1} className="img-fluid img-thumbnail" alt="servicioFono"/>
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
@@ -56,7 +59,7 @@ export function Servicios () {
             <hr/>
             <h2 className='animate__animated animate__shakeX'>Atención Terapia Ocupacional</h2>
             <div className='container col-sm-12 col-md-6 col-lg-6'>
-                <img src={fonoaudiologia} className="img-fluid img-thumbnail" alt="servicioFono"/>
+                <img src={servFono2} className="img-fluid img-thumbnail" alt="servicioFono"/>
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de trastornos del lenguaje, habla, tartamudez, deglución. </p>
