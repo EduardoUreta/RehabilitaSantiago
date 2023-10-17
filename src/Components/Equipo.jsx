@@ -13,10 +13,7 @@ import rehabLogo from '../assets/Recurso9.svg';
 import 'animate.css'
 
 export function Equipo() {
-    const estiloDeFuente = {
-        fontFamily: 'Nourd', 
-      };
-      
+     
     return (
         <div className=' row justify-content-center row-gap-3 animate__animated animate__backInUp'>
             <br></br>

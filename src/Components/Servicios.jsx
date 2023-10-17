@@ -9,21 +9,21 @@ export function Servicios () {
         <div className="bg-light row row-gap-3 ">
             <h2 className='animate__animated animate__shakeX'>Atención Fonoaudiológica</h2>
             <div className='container col-sm-12 col-md-6 col-lg-6'>
-                <img src={servFono3} className="img-fluid img-thumbnail" alt="servicioFono"/>
+                <img src={servFono3} className="img-fluid img-thumbnail " alt="servicioFono"/>
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="two-column-list">
+                    <ul className="two-column-list text-capitalize ">
                         <li>Trastornos del Lenguaje</li>
                         <li>Trastornos del Habla</li>
                         <li>Trastornos del Deglución</li>
                         <li>Tartamudez</li>
-                        <li>Rechazo alimentario</li>
-                        <li>Dificultades alimentarias</li>
-                        <li>Estimulación temprana</li>
-                        <li>Atención temprana</li>
-                        <li>Lactancia materna</li>
+                        <li>Rechazo Alimentario</li>
+                        <li>Dificultades Alimentarias</li>
+                        <li>Estimulación Temprana</li>
+                        <li>Atención Temprana</li>
+                        <li>Lactancia Materna</li>
                         <li>Baby Led Weaning</li>
                     </ul>
                     <button className='button-leer-mas'> 
@@ -39,17 +39,13 @@ export function Servicios () {
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="two-column-list">
-                        <li>Trastornos del Lenguaje</li>
-                        <li>Trastornos del Habla</li>
-                        <li>Trastornos del Deglución</li>
-                        <li>Tartamudez</li>
-                        <li>Rechazo alimentario</li>
-                        <li>Dificultades alimentarias</li>
-                        <li>Estimulación temprana</li>
-                        <li>Atención temprana</li>
-                        <li>Lactancia materna</li>
-                        <li>Baby Led Weaning</li>
+                    <ul className="text-capitalize ">
+                        <li>Neurorehabilitación</li>
+                        <li>Rehabilitación Músculo Esquelética</li>
+                        <li>Manejo Respiratorio</li>
+                        <li>Rehabilitación Post COVID</li>
+                        <li>Masoterapia</li>
+                        <li>Atención a Población Infantil, Adultos y Adultos Mayores.</li>                 
                     </ul>
                     <button className='button-leer-mas'> 
                         Leer Más
@@ -62,14 +58,13 @@ export function Servicios () {
                 <img src={servFono2} className="img-fluid img-thumbnail" alt="servicioFono"/>
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6'>
-                <p>Evaluación, diagnóstico y tratamiento de trastornos del lenguaje, habla, tartamudez, deglución. </p>
-                    <ul>
-                        <li>Rechazo alimentario</li>
-                        <li>Dificultades alimentarias</li>
-                        <li>Estimulación temprana</li>
-                        <li>Atención temprana</li>
-                        <li>Lactancia materna</li>
-                        <li>Baby Led Weaning</li>
+                <p>Evaluación, diagnóstico y tratamiento en: </p>
+                    <ul className=''>
+                        <li>Apoyo en Salud Mental y Tratamientos Psiquiátricos</li>
+                        <li>Terapia para Usuarios con Diversas Necesidades: </li>
+                        <li>Discapacidad Intelectual</li>
+                        <li>TEA, TDAH</li>
+                        <li>Demencias, entre otros</li>
                     </ul>
                     <button className='button-leer-mas'> 
                         Leer Más

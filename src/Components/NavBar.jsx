@@ -22,7 +22,7 @@ function NavBar() {
               <NavLink to="/servicios" className='nav-link text-black text-center mr-2'>Servicios</NavLink>
               <NavLink to="/equipo" className='nav-link text-black text-center mr-2'>Equipo</NavLink>
               <NavLink to="/contacto" className='nav-link text-black text-center mr-2'>Reserva y Contacto</NavLink>
-              <NavLink to="/about" className='nav-link text-black text-center mr-2'>FAQS</NavLink>
+              <NavLink to="/faqs" className='nav-link text-black text-center mr-2'>Preguntas Frecuentes</NavLink>
               <NavLink to="/blog-y-recursos" className='nav-link text-black text-center mr-2'>Blog y Recursos</NavLink>
               <NavLink to="/galeria" className='nav-link text-black text-center mr-2'>Galeria</NavLink>
             </Nav>

@@ -1,4 +1,5 @@
 import 'animate.css';
+import { Link, NavLink } from 'react-router-dom'
 
 export function Nosotros() {
     return (
@@ -25,7 +26,7 @@ export function Nosotros() {
             <h4>Equipo de terapeutas capacitados en diferentes áreas <br></br>
                 Profesionales actualizados en sus áreas de intervención</h4>
                 <button className='button-leer-mas'> 
-                        <a href="/equipo" className='text-decoration: d-none '>¡Conoce al equipo!</a>
+                    <a href="/equipo" className='text-light'>¡Conoce al equipo!</a>
                 </button>
         </div>
     )

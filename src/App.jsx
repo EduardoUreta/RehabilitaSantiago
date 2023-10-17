@@ -12,6 +12,8 @@ import Footer from './Components/Footer';
 import { BlogRecursos } from './Components/BlogRecursos';
 import { Contacto } from './Components/Contacto';
 import { Testimonios } from './Components/Testimonios';
+import { Faqs } from './Components/About';
+import { Error404 } from './Components/Error404';
 
 
 function App() {
@@ -39,9 +41,11 @@ function App() {
             <Route path="/servicios" element={<Servicios/>}/>
             <Route path="/nosotros" element={<Nosotros/>}/>
             <Route path='/galeria' element={<CarouselComponent/>}/>
+            <Route path='/faqs' element={<Faqs/>}/>
             <Route path='/blog-y-recursos' element={<BlogRecursos/>}/>
             <Route path='/contacto' element={<Contacto/>}/>
             <Route path='/' element={<Testimonios/>}/>
+            <Route path="*" element={<Error404/>}></Route>
           </Routes>
           <hr/>
 
