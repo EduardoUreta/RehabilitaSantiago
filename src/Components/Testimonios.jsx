@@ -56,7 +56,7 @@ export function Testimonios() {
                     <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
                         "Han habido avances muy significativos con mi hija, súper notorios. 
                         Igual hay que continuar el trabajo, pero ya es un proceso que avanza 
-                        más del 50%.""
+                        más del 50%."
                     </h5>
                         <br></br>
                     <br></br>
