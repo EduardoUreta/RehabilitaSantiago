@@ -12,7 +12,7 @@ export function Testimonios() {
                     <br></br><br></br>
                     <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
                     "Muy agradecido del apoyo y preocupación que tuvieron con mi hijo, 
-                    lo ayudaron de manera muy significativa, muy recomendados"
+                    lo ayudaron de manera muy significativa, muy recomendados."
                     </h5>
                         <br></br>
                     <br></br>
@@ -26,7 +26,7 @@ export function Testimonios() {
                     <br></br><br></br>
                     <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
                         "Muchas gracias por todo el apoyo, Camila es una gran fonoaudióloga y 
-                        tiene mucha paciencia con mi hija.""
+                        tiene mucha paciencia con mi hija."
                     </h5>
                         <br></br>
                     <br></br>
@@ -54,9 +54,9 @@ export function Testimonios() {
             <div className='direccion'>
                     <br></br><br></br>
                     <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
-                        Han habido avances muy significativos con mi hija, súper notorios. 
+                        "Han habido avances muy significativos con mi hija, súper notorios. 
                         Igual hay que continuar el trabajo, pero ya es un proceso que avanza 
-                        más del 50%.
+                        más del 50%.""
                     </h5>
                         <br></br>
                     <br></br>

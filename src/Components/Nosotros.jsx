@@ -25,9 +25,11 @@ export function Nosotros() {
             <h1>¿Quiénes componen nuestro equipo?</h1>
             <h4>Equipo de terapeutas capacitados en diferentes áreas <br></br>
                 Profesionales actualizados en sus áreas de intervención</h4>
-                <button className='button-leer-mas'> 
-                    <a href="/equipo" className='text-light'>¡Conoce al equipo!</a>
-                </button>
+                <Link to="/equipo">
+                    <button className='button-leer-mas'> 
+                        ¡Conoce al equipo!
+                    </button>
+                </Link>
         </div>
     )
 }
