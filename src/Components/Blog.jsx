@@ -33,11 +33,6 @@ export function Blog() {
                         Pero al final el resultado es maravilloso 💥
                         <br></br>
                         <br></br>
-                        <Link to="/contacto">
-                            <button className='button-leer-mas'> 
-                                Solicita aqúi tu hora con Fonoaudiología
-                            </button>
-                        </Link>
                       </>
                     ) : (
                       <>
@@ -79,12 +74,6 @@ export function Blog() {
                             para procesar la información sensorial de su entorno.<br></br><br></br>
 
                         ¡y muchas mas!<br></br><br></br>
-
-                        <Link to="/contacto">
-                            <button className='button-leer-mas'> 
-                                Solicita aqúi tu hora con Terapía Ocupacional
-                            </button>
-                        </Link>
 
                       </>
                     ) : (
