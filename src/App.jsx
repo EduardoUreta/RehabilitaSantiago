@@ -15,6 +15,8 @@ import { Testimonios } from './Components/Testimonios';
 import { Faqs } from './Components/About';
 import { Error404 } from './Components/Error404';
 
+import 'animate.css';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +35,7 @@ function App() {
         </Routes> 
 
           <hr/>
-          <h1>REHABILITA SANTIAGO</h1>
+          <h1 className='animate__animated animate__fadeInDown'>REHABILITA SANTIAGO</h1>
 
 
           <Routes>

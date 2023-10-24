@@ -12,9 +12,9 @@ export function Inicio() {
       </div>
       <hr />
       <div>
-        <h2 className="animate__animated animate__heartBeat">¡Te damos la bienvenida a Rehabilita Santiago! </h2>
-        <h2 className="animate__animated animate__backInUp">
-          En esta página podrás saber más sobre nosotros, conocer al equipo, agendar horas de
+        <h2><b>¡Te damos la bienvenida a Rehabilita Santiago!</b></h2>
+        <h2 className="">
+          Aquí podrás saber más sobre nosotros, conocer al equipo, agendar horas de
           evaluación y terapia, contestar tus preguntas y acceder a nuestro blog
           con entretenida información.
         </h2>

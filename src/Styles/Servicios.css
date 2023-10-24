@@ -35,7 +35,7 @@ li {
     position: relative;
     background-color: rgb(103, 38, 131);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
-    color: #FF0072;
+    color: #ffffff;
     text-decoration: none;
     transition: 0.3s ease all;
     z-index: 1;

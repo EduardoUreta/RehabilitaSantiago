@@ -10,16 +10,11 @@ export function Testimonios() {
             <Carousel.Item>
                 <div className='equipoFono'>
                     <br></br><br></br>
-                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>"Mi experiencia con 'Rehabilita Santiago' ha sido 
-                        increíble. Desde que mi hija comenzó la terapia de fonoaudiología, 
-                        he notado una mejora significativa en la capacidad para 
-                        comunicarse. El equipo de fonoaudiólogos es altamente 
-                        profesional y comprensivo. Han trabajado con mi hijo de manera 
-                        personalizada, y gracias a su dedicación, he mejorado su
-                        confianza al hablar y expresarse. Estoy realmente 
-                        agradecida por el apoyo que hemos recibido aquí."</h5>
+                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
+                    "Muy agradecido del apoyo y preocupación que tuvieron con mi hijo, 
+                    lo ayudaron de manera muy significativa, muy recomendados"
+                    </h5>
                         <br></br>
-                    <h6 className='text-end m-3 animate__animated animate__fadeInDownBig'> Francisca P, mamá de Amanda </h6>
                     <br></br>
                 </div>
                 <Carousel.Caption>
@@ -29,16 +24,11 @@ export function Testimonios() {
             <Carousel.Item>
             <div className='equipoKine'>
                     <br></br><br></br>
-                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>"Mi experiencia con 'Rehabilita Santiago' ha sido 
-                        increíble. Desde que mi hija comenzó la terapia de fonoaudiología, 
-                        he notado una mejora significativa en la capacidad para 
-                        comunicarse. El equipo de fonoaudiólogos es altamente 
-                        profesional y comprensivo. Han trabajado con mi hijo de manera 
-                        personalizada, y gracias a su dedicación, he mejorado su
-                        confianza al hablar y expresarse. Estoy realmente 
-                        agradecida por el apoyo que hemos recibido aquí."</h5>
+                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
+                        "Muchas gracias por todo el apoyo, Camila es una gran fonoaudióloga y 
+                        tiene mucha paciencia con mi hija.""
+                    </h5>
                         <br></br>
-                    <h6 className='text-end m-3 animate__animated animate__fadeInDownBig'> Francisca P, mamá de Amanda </h6>
                     <br></br>
                 </div>
                 <Carousel.Caption>
@@ -48,16 +38,27 @@ export function Testimonios() {
             <Carousel.Item>
             <div className='equipoTo'>
                     <br></br><br></br>
-                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>"Mi experiencia con 'Rehabilita Santiago' ha sido 
-                        increíble. Desde que mi hija comenzó la terapia de fonoaudiología, 
-                        he notado una mejora significativa en la capacidad para 
-                        comunicarse. El equipo de fonoaudiólogos es altamente 
-                        profesional y comprensivo. Han trabajado con mi hijo de manera 
-                        personalizada, y gracias a su dedicación, he mejorado su
-                        confianza al hablar y expresarse. Estoy realmente 
-                        agradecida por el apoyo que hemos recibido aquí."</h5>
+                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
+                        "Absolutamente satisfecha, excelente trato y paciencia, 
+                        esto hizo que mi experiencia fuera increible
+                         y me dejaron completamente complacida con el servicio recibido."
+                    </h5>
                         <br></br>
-                    <h6 className='text-end m-3 animate__animated animate__fadeInDownBig'> 𝙵𝚛𝚊𝚗𝚌𝚒𝚜𝚌𝚊 𝙿, 𝚖𝚊𝚖á 𝚍𝚎 𝙰𝚖𝚊𝚗𝚍𝚊 </h6>
+                    <br></br>
+                </div>
+                <Carousel.Caption>
+                {/* <h2>Opcional</h2> */}
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className='direccion'>
+                    <br></br><br></br>
+                    <h5 className='w-75 m-auto animate__animated animate__fadeInDown'>
+                        Han habido avances muy significativos con mi hija, súper notorios. 
+                        Igual hay que continuar el trabajo, pero ya es un proceso que avanza 
+                        más del 50%.
+                    </h5>
+                        <br></br>
                     <br></br>
                 </div>
                 <Carousel.Caption>

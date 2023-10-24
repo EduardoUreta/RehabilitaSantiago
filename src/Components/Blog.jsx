@@ -2,9 +2,10 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import procesoterapiafono from '../assets/blogrecursos/procesoterapiafono.png';
-import derivacion from '../assets/blogrecursos/derivacion.png'
-import derivacionTO from '../assets/blogrecursos/derivacionTO.png'
-import contamosconKine from '../assets/blogrecursos/contamosconkine.png'
+import derivacion from '../assets/blogrecursos/derivacion.png';
+import derivacionTO from '../assets/blogrecursos/derivacionTO.png';
+import consecuencias from '../assets/blogrecursos/consecuencias.png';
+import { Link } from 'react-router-dom';
 
 
 export function Blog() {
@@ -32,11 +33,11 @@ export function Blog() {
                         Pero al final el resultado es maravilloso 💥
                         <br></br>
                         <br></br>
-                        <a href="https://api.whatsapp.com/send?phone=56978921040" target='_blank'>
+                        <Link to="/contacto">
                             <button className='button-leer-mas'> 
                                 Solicita aqúi tu hora con Fonoaudiología
                             </button>
-                        </a>
+                        </Link>
                       </>
                     ) : (
                       <>
@@ -58,11 +59,11 @@ export function Blog() {
           <Card>
             <Row>
               <Col md={6}>
-                <Card.Img variant="top" src={idx === 0 ? derivacionTO : contamosconKine} />
+                <Card.Img variant="top" src={idx === 0 ? derivacionTO : consecuencias} />
               </Col>
               <Col md={6} className='d-flex align-items-center '>
                 <Card.Body>
-                  <Card.Title className='text-danger'>{idx === 0 ? '¿POR QUÉ DERIVAMOS A TERAPIA OCUPACIONAL?' : '¡NUEVO SERVICIO DE KINESIOLOGÍA!'}</Card.Title>
+                  <Card.Title className='text-danger'>{idx === 0 ? '¿POR QUÉ DERIVAMOS A TERAPIA OCUPACIONAL?' : '¿QUÉ PASA CUANDO NO SOMOS CONSTANTE CON LA ASISTENCIA?'}</Card.Title>
                   <Card.Text>
                     {idx === 0 ? (
                       <>
@@ -79,24 +80,20 @@ export function Blog() {
 
                         ¡y muchas mas!<br></br><br></br>
 
-                        <a href="https://api.whatsapp.com/send?phone=56978921040" target='_blank'>
+                        <Link to="/contacto">
                             <button className='button-leer-mas'> 
-                                Solicita aqúi tu hora con Terapeuta Ocupacional
+                                Solicita aqúi tu hora con Terapía Ocupacional
                             </button>
-                        </a>
+                        </Link>
 
                       </>
                     ) : (
                       <>
-                        Partimos este mes con una gran noticia 🤩👏🏻! 
-                        A partir de ahora tenemos servicio de Kinesiología respiratoria y del neurodesarrollo 🥳! 
-                        Agenda tu hora con nosotros 💌    <br></br><br></br>
+                        Que importante es la continuidad en las terapias en salud 👏🏻 
+                        ser constantes ayuda a cumplir los objetivos planteados en ciertos 
+                        periodos de tiempo, entre otras cosas!
+                        <br></br><br></br>
 
-                        <a href="https://api.whatsapp.com/send?phone=56978921040" target='_blank'>
-                            <button className='button-leer-mas'> 
-                                Solicita aqúi tu hora con Kinesiología
-                            </button>
-                        </a>    
                       </>
                     )}
                   </Card.Text>
