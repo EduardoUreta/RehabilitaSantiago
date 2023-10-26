@@ -22,9 +22,11 @@ export function Equipo() {
             <div className='row justify-content-center direccion row-gap-3'>
                 <div className='container col-sm-6 col-md-4 col-lg-4'>
                     <img src={directora1} className="img-fluid img-thumbnail" alt="equipoKine1"/>
+                    <h5 className='text-light'>catalinaaldana@rehabilitasantiago.cl</h5>
                 </div>
                 <div className='container col-sm-6 col-md-4 col-lg-4'>
                     <img src={directora2} className="img-fluid img-thumbnail" alt="equipoKine1"/>
+                    <h5 className='text-light'>mariapazruisenor@rehabilitasantiago.cl</h5>
                 </div>
             </div>
             <hr/>

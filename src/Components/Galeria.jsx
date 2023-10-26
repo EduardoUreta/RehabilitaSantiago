@@ -9,7 +9,7 @@ export function CarouselComponent() {
         <Carousel>
             <Carousel.Item>
                 <img
-                className="d-block w-50 img-fluid"
+                className="d-block w-50 img-fluid m-auto"
                 src={foto2}
                 alt="Primera imagen"
                 />
@@ -19,7 +19,7 @@ export function CarouselComponent() {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                className="d-block w-50 img-fluid"
+                className="d-block w-50 img-fluid m-auto"
                 src={foto3}
                 alt="Primera imagen"
                 />

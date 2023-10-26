@@ -27,7 +27,7 @@ function Footer() {
       </div>
       <div className="footer-divider"></div>
       <div className="footer-info text-black">
-        <p> Centro Rehabilita Santiago ~ Teléfonos: +56948538803 y +56973898844 ~ contactofonoaudiologiasantiago@gmail.com</p>
+        <p> Centro Rehabilita Santiago ~ Teléfonos: +56948538803 y +56973898844 ~ contacto@rehabilitasantiago.cl</p>
       </div>
     </footer>
   );

@@ -14,7 +14,7 @@ export function Servicios () {
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="two-column-list text-capitalize ">
+                    <ul className="two-column-list text-capitalize equipoFono m-auto ">
                         <li>Trastornos del Lenguaje</li>
                         <li>Trastornos del Habla</li>
                         <li>Trastornos del Deglución</li>
@@ -26,9 +26,6 @@ export function Servicios () {
                         <li>Lactancia Materna</li>
                         <li>Baby Led Weaning</li>
                     </ul>
-                    <button className='button-leer-mas'> 
-                        Leer Más
-                    </button>
                 </div>
             </div>
             <hr/>
@@ -39,7 +36,7 @@ export function Servicios () {
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="text-capitalize ">
+                    <ul className="text-capitalize equipoKine">
                         <li>Neurorehabilitación</li>
                         <li>Rehabilitación Músculo Esquelética</li>
                         <li>Manejo Respiratorio</li>
@@ -47,9 +44,6 @@ export function Servicios () {
                         <li>Masoterapia</li>
                         <li>Atención a Población Infantil, Adultos y Adultos Mayores.</li>                 
                     </ul>
-                    <button className='button-leer-mas'> 
-                        Leer Más
-                    </button>
                 </div>
             </div>
             <hr/>
@@ -57,18 +51,15 @@ export function Servicios () {
             <div className='container col-sm-12 col-md-6 col-lg-6'>
                 <img src={servFono2} className="img-fluid img-thumbnail" alt="servicioFono"/>
             </div>
-            <div className='container col-sm-6 col-md-6 col-lg-6'>
+            <div className='container col-sm-6 col-md-6 col-lg-6 justify-content-center '>
                 <p>Evaluación, diagnóstico y tratamiento en: </p>
-                    <ul className=''>
+                    <ul className='equipoTo'>
                         <li>Apoyo en Salud Mental y Tratamientos Psiquiátricos</li>
                         <li>Terapia para Usuarios con Diversas Necesidades: </li>
                         <li>Discapacidad Intelectual</li>
                         <li>TEA, TDAH</li>
                         <li>Demencias, entre otros</li>
                     </ul>
-                    <button className='button-leer-mas'> 
-                        Leer Más
-                    </button>
             </div>
         </div>
     )
