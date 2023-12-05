@@ -3,6 +3,7 @@
 @import './Styles/Nourd-font.css';
 @import './Styles/Equipo.css';
 @import './Styles/Testimonios.css';
+@import './Styles/WhatsAppButton.css';
 
 #root {
   max-width: 1280px;

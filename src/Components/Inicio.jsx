@@ -6,9 +6,9 @@ export function Inicio() {
     <div>
       <h1>NUESTROS SERVICIOS</h1> <br></br>
       <div className='row m-auto'>
-        <h2 className='col-md-4 col-lg-3 m-auto equipoFono border'>𝒻𝑜𝓃𝑜𝒶𝓊𝒹𝒾𝑜𝓁𝑜𝑔í𝒶</h2>
-        <h2 className='col-md-4 col-lg-3 m-auto equipoKine border'>𝓀𝒾𝓃𝑒𝓈𝒾𝑜𝓁𝑜𝑔í𝒶</h2>
-        <h2 className='col-md-4 col-lg-3 m-auto equipoTo border'>𝓉𝑒𝓇𝒶𝓅𝒾𝒶 𝑜𝒸𝓊𝓅𝒶𝒸𝒾𝑜𝓃𝒶𝓁</h2>
+        <h2 className='col-md-4 col-lg-3 m-auto equipoFono border'>F𝚘𝚗𝚘𝚊𝚞𝚍𝚒𝚘𝚕𝚘𝚐í𝚊</h2>
+        <h2 className='col-md-4 col-lg-3 m-auto equipoKine border'>K𝚒𝚗𝚎𝚜𝚒𝚘𝚕𝚘𝚐í𝚊</h2>
+        <h2 className='col-md-4 col-lg-3 m-auto equipoTo border'>T𝚎𝚛𝚊𝚙𝚒𝚊 O𝚌𝚞𝚙𝚊𝚌𝚒𝚘𝚗𝚊𝚕</h2>
       </div>
       <hr />
       <div>

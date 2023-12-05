@@ -1,0 +1,17 @@
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde abajo según sea necesario */
+  right: 20px; /* Ajusta la distancia desde la derecha según sea necesario */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 100px; 
+  height: auto;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.2); /* Cambia el tamaño al hacer hover */
+}

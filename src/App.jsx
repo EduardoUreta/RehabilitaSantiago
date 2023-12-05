@@ -14,6 +14,7 @@ import { Contacto } from './Components/Contacto';
 import { Testimonios } from './Components/Testimonios';
 import { Faqs } from './Components/About';
 import { Error404 } from './Components/Error404';
+import WhatsAppButton from './Components/WhatsAppButton';
 
 import 'animate.css';
 
@@ -37,7 +38,6 @@ function App() {
           <hr/>
           <h1 className='animate__animated animate__fadeInDown'>REHABILITA SANTIAGO</h1>
 
-
           <Routes>
             <Route path="/equipo" element={<Equipo/>}/>
             <Route path="/servicios" element={<Servicios/>}/>
@@ -51,9 +51,8 @@ function App() {
           </Routes>
           <hr/>
 
-
-
           <Footer/>
+          <WhatsAppButton/>
           <button id="scroll-to-top" onClick={scrollToTop} className='btn btn-danger '>Subir al inicio</button>
       </BrowserRouter>
 
