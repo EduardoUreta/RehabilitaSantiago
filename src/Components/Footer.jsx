@@ -13,13 +13,10 @@ function Footer() {
           <img src={logo} alt="Logo Rehab Stgo"/>
         </div>
         <div className="col-md-4 col-sm-6">
-            <h5 className='text-center color-encuentranos'>ENCUÉNTRANOS</h5>
+            <h5 className='text-center color-encuentranos'>Contacto</h5>
             <a href="https://www.instagram.com/rehabilitasantiago/" target='_blank'>
                 <img src={logoig} alt="LogoIG" className='img-fluid' />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=56948538803" target='_blank'>
-                <img src={logowsp} alt="LogoWSP" className='img-fluid' />
-            </a>    
             <a href="mailto:contactofonoaudiologiasantiago@gmail.com" target='_blank'>
                 <img src={logogmail} alt="LogoGMAIL" className='img-fluid' />
             </a> 

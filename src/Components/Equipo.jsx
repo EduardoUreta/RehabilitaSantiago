@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+
 import fono from '../assets/equipo/fono.png'
 import fono2 from '../assets/equipo/fono2.png'
 import fono3 from '../assets/equipo/fono3.png'
@@ -13,6 +15,31 @@ import rehabLogo from '../assets/Recurso9.svg';
 import 'animate.css'
 
 export function Equipo() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+  
+    const ComponentToRender = windowWidth <= 850 ? (
+      <h6 className='text-light text-center m-auto'>catalinaaldana@rehabilitasantiago.cl</h6>
+    ) : (
+      <p className='text-light text-center m-auto'>catalinaaldana@rehabilitasantiago.cl</p>
+    );
+
+    const ComponentToRender2 = windowWidth <= 850 ? (
+        <h6 className='text-light text-center m-auto '>mariapazruisenor@rehabilitasantiago.cl</h6>
+      ) : (
+        <p className='text-light text-center m-auto '>mariapazruisenor@rehabilitasantiago.cl</p>
+      );
      
     return (
         <div className=' row justify-content-center row-gap-3 animate__animated animate__backInUp'>
@@ -22,11 +49,11 @@ export function Equipo() {
             <div className='row justify-content-center direccion row-gap-3'>
                 <div className='container col-sm-6 col-md-4 col-lg-4'>
                     <img src={directora1} className="img-fluid img-thumbnail" alt="equipoKine1"/>
-                    <p className='text-light'>catalinaaldana@rehabilitasantiago.cl</p>
+                    {ComponentToRender}
                 </div>
                 <div className='container col-sm-6 col-md-4 col-lg-4'>
                     <img src={directora2} className="img-fluid img-thumbnail" alt="equipoKine1"/>
-                    <p className='text-light'>mariapazruisenor@rehabilitasantiago.cl</p>
+                    {ComponentToRender2}
                 </div>
             </div>
             <hr/>

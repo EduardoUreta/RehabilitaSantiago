@@ -14,7 +14,7 @@ export function Servicios () {
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="two-column-list text-capitalize equipoFono m-auto ">
+                    <ul className="two-column-list text-capitalize equipoFono m-auto p-3">
                         <li>Trastornos del Lenguaje</li>
                         <li>Trastornos del Habla</li>
                         <li>Trastornos del Deglución</li>
@@ -36,7 +36,7 @@ export function Servicios () {
             <div className='container col-sm-6 col-md-6 col-lg-6'>
                 <p>Evaluación, diagnóstico y tratamiento de:</p>
                 <div className="container">
-                    <ul className="text-capitalize equipoKine">
+                    <ul className="text-capitalize equipoKine p-4">
                         <li>Neurorehabilitación</li>
                         <li>Rehabilitación Músculo Esquelética</li>
                         <li>Manejo Respiratorio</li>
@@ -53,7 +53,7 @@ export function Servicios () {
             </div>
             <div className='container col-sm-6 col-md-6 col-lg-6 justify-content-center '>
                 <p>Evaluación, diagnóstico y tratamiento en: </p>
-                    <ul className='equipoTo'>
+                    <ul className='equipoTo p-4'>
                         <li>Apoyo en Salud Mental y Tratamientos Psiquiátricos</li>
                         <li>Terapia para Usuarios con Diversas Necesidades: </li>
                         <li>Discapacidad Intelectual</li>
